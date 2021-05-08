@@ -20,7 +20,7 @@ img {
 }
 
 .nav-container {
-  background: #6700EE;
+  background: #0630bb
 }
 
 .nav-container a {
@@ -38,7 +38,7 @@ header {
 }
 
 header .logo {
-  color: #00F7FF;
+  color: #f7f3ea;
   font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ header ul a {
 }
 
 .hero {
-  background: #6E00FF;
+  background: #1439df; ;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -93,6 +93,7 @@ section {
 
 .featured {
   position: relative;
+  background-color: #18e76f;
 }
 
 .featured::before {
@@ -101,11 +102,12 @@ section {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: #E5D5FA;
+  background: #f7d516f5;
   top: 0;
   left: 0;
   z-index: -1;
 }
+/* try to fix cirle to make it trans on small screen */
 
 .subtitle {
   text-transform: uppercase;
@@ -132,7 +134,7 @@ section {
 }
 
 .skills {
-  background: #FF64CB;
+  background: #635e61;
 }
 
 .skills-container ul li {
@@ -171,7 +173,7 @@ section {
 }
 
 .portfolio {
-  background: #F7F7F7;
+  background: #c2cbdf;
 }
 
 .portfolio-container a img {
@@ -228,10 +230,9 @@ section {
     -ms-grid-columns: 66% auto;
         grid-template-columns: 66% auto;
     background: unset;
+    background-color: #0630bb
   }
-  .nav-container header {
-    background: #6700EE;
-  }
+ 
   header {
     padding: 2em 2em 2em 4em;
   }
@@ -262,11 +263,11 @@ section {
     display: grid;
     -ms-grid-columns: 66% auto;
         grid-template-columns: 66% auto;
-    background: unset;
+    background: #1439df
     padding: 0;
   }
   .hero .content {
-    background: #6E00FF;
+    background-color: #1439df
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
