@@ -145,10 +145,10 @@ section {
   margin-bottom: 1em;
 }
 
-.skills-container ul li .icon-container {
+/* .skills-container ul li .icon-container {
   height: 100px;
-  display: -ms-grid;
-  display: grid;
+
+  
   place-content: center;
   margin: 0 auto;
 }
@@ -163,7 +163,7 @@ section {
 
 .skills-container ul li .icon-container.three {
   width: 60px;
-}
+} */
 
 .skills-container ul li .skill-title {
   font-weight: bold;
@@ -182,7 +182,47 @@ section {
   margin-bottom: 2em;
 }
 
-@media only screen and (min-width: 800px) {
+.skill-title {
+margin-top:0;
+}
+
+.skills-icon {
+  width:40px;
+  height: 40px;
+  margin:30px 30px;
+ 
+}
+
+.skills-icon p {
+  margin: 0;
+}
+
+.skills-icon img {
+  object-fit: cover;
+}
+
+.icon-container {
+  display: grid;
+  /* -ms-grid-columns: (auto)[3]; */
+      grid-template-columns: repeat(2, auto);
+  grid-gap: 1em;
+  justify-content: space-around;
+
+}
+
+.skills-container h1 {
+  margin:0;
+  
+}
+.skills-container p {
+font-weight: bold;
+}
+
+.skills li {
+  border: 2px solid black
+}
+
+@media only screen and (min-width: 850px) {
   .featured, .portfolio {
     text-align: left;
   }
@@ -212,7 +252,8 @@ section {
     display: grid;
     /* -ms-grid-columns: (auto)[3]; */
         grid-template-columns: repeat(3, auto);
-    grid-gap: 1em;
+    grid-gap: 0em;
+    justify-content: space-evenly
   }
   .portfolio {
     padding-top: 7em;
@@ -220,7 +261,25 @@ section {
   .portfolio-container img {
     margin-left: 2em;
   }
+
+  .icon-container{
+    width: auto;
+
+
+  }
+  .skills li {
+    width: auto;
+    margin:0 0px;
+  
+  }
+.skills-icon{
+  margin-top: 40%;
 }
+
+
+}
+
+
 
 @media only screen and (min-width: 1050px) {
   .hero {
