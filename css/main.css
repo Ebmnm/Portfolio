@@ -62,7 +62,7 @@ header ul a {
 
 
 .social-header img {
-  height: 30px;
+  height: 25px;
   border-radius: 5%;
   transform: scale(1.2);
 }
@@ -80,6 +80,13 @@ header ul a {
   padding: 4em;
 }
 
+.comp-img img {
+  size: cover;
+}
+.comp-img {
+width: 150px;
+height: 150px;
+}
 .meet {
   display: -webkit-box;
   display: -ms-flexbox;
