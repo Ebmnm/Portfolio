@@ -259,6 +259,10 @@ padding-top: 30px;
   height:auto;
   width: auto;
  overflow: hidden;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ padding-bottom: 5%;
 }
 .footer h1 {
   text-align: center;
@@ -266,6 +270,14 @@ padding-top: 30px;
 .footer h2 {
   margin-left: 10%;
 
+}
+
+.footer form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+  
 }
 
 
