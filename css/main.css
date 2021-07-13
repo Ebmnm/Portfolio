@@ -268,8 +268,8 @@ padding-top: 30px;
   text-align: center;
 }
 .footer h2 {
-  margin-left: 10%;
-
+  margin:auto;
+  margin-bottom:2%;
 }
 
 .footer form {
@@ -277,10 +277,30 @@ padding-top: 30px;
   justify-content: center;
   flex-direction: column;
   margin:auto;
+  width:60%;
   
 }
+.form-control{
+  width:100%;
+}
 
-
+.form-group{
+  width:100%;
+}
+.send-button{
+  color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #60a3bc;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+.send-button:hover{
+  background:#156481;
+}
 
 
 @media only screen and (min-width: 920px) {
@@ -424,6 +444,14 @@ padding-top: 30px;
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+  .footer form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    width:30%;
+    
   }
 }
 
