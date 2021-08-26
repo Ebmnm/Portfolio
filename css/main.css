@@ -56,11 +56,15 @@ header ul a {
   padding: 0 1em;
 }
 
-.social-header, .hero-design {
+.social-header {
   display: none;
   
 }
 
+
+.content{
+  position:relative;
+}
 
 
 
@@ -83,12 +87,14 @@ header ul a {
   padding: 4em;
 }
 
+
 .comp-img img {
   size: cover;
 }
 .comp-img {
 width: 150px;
 height: 150px;
+margin-left:10%;
 }
 .meet {
   display: -webkit-box;
@@ -168,25 +174,7 @@ section {
   margin-bottom: 1em;
 }
 
-/* .skills-container ul li .icon-container {
-  height: 100px;
 
-  
-  place-content: center;
-  margin: 0 auto;
-}
-
-.skills-container ul li .icon-container.one {
-  width: 50px;
-}
-
-.skills-container ul li .icon-container.two {
-  width: 100px;
-}
-
-.skills-container ul li .icon-container.three {
-  width: 60px;
-} */
 
 
 
@@ -303,6 +291,14 @@ padding-top: 30px;
 }
 
 
+
+@media screen and (max-width:1100px) {
+  .hero-design{
+    display:none;
+  }
+
+}
+
 @media only screen and (min-width: 920px) {
   .featured, .portfolio {
     text-align: left;
@@ -361,10 +357,10 @@ padding-top: 30px;
 }
 
 
-
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 880px) {
   .hero {
     height: 90vh;
+    background:rgb(50, 156, 243)
   }
   .nav-container {
     display: -ms-grid;
@@ -405,11 +401,11 @@ padding-top: 30px;
     display: grid;
     -ms-grid-columns: 66% auto;
         grid-template-columns: 66% auto;
-    background: #1439df
+    
     padding: 0;
   }
   .hero .content {
-    background-color: #1439df
+    background-color: #1439df;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
@@ -429,6 +425,10 @@ padding-top: 30px;
   .portfolio img {
     float: right;
     max-width: 500px;
+  }
+  .lord-icon{
+    position:absolute;
+  top:0;
   }
 }
 
