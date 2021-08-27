@@ -164,7 +164,13 @@ section {
 }
 
 .skills {
-  background: #635e61;
+  /* background: #635e61; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCXKydryURWtCu9Xk34IqjxMSGAVcvFUnozg&usqp=CAU");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
 }
 
 .skills-container ul li {
