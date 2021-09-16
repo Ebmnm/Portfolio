@@ -85,8 +85,9 @@ header ul a {
   display: grid;
   text-align: center;
   padding: 4em;
+  height:auto; 
 }
-
+/* height changed not commited, (error on different pc) */
 
 .comp-img img {
   size: cover;
