@@ -88,7 +88,6 @@ header ul a {
   padding: 4em;
   height: auto;
   overflow: hidden;
-  
 }
 
 
@@ -175,8 +174,6 @@ section {
   background-position: center;
   background-size: cover;
   max-height: auto;
-  
-  
 }
 
 .skills-container ul li {
@@ -185,11 +182,6 @@ section {
   border-radius: 1em;
   margin-bottom: 1em;
 }
-
-
-
-
-
 
 .skills-container ul li .skill-title {
   font-weight: bold;
@@ -216,8 +208,6 @@ margin-top:0;
   width:60px;
   height: 60px;
   margin:30px 30px;
- 
- 
 }
 
 .skills-icon p {
@@ -309,7 +299,6 @@ padding-top: 30px;
   .hero-design{
     display:none;
   }
-
 }
 
 @media only screen and (min-width: 920px) {
@@ -366,8 +355,6 @@ padding-top: 30px;
 .skills-icon{
   margin-top: 40%;
 }
-
-
 }
 
 
@@ -465,7 +452,6 @@ padding-top: 30px;
     flex-direction: column;
     margin:auto;
     width:30%;
-    
   }
 }
 
